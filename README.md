@@ -9,15 +9,6 @@ This example application uses:
 - [SockJS](http://sockjs.org)
 - [Tornado](https://github.com/mrjoes/sockjs-tornado/)
 
-## Live demo
-
-This example application is running on Heroku.
-
-[http://dwr-example.herokuapp.com/](http://dwr-example.herokuapp.com/)
-
-Note that Django is not running at all. Tornado is serving a static HTML file and is routing the websocket requests. django-websocket-request then does the magic.
-
-Throttling is enabled and snippets are erased periodically. If you run into any errors feel free to bother [@jpadilla_](https://twitter.com/jpadilla_) on Twitter about it.
 
 ## Running locally
 
